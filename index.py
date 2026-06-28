@@ -1,19 +1,19 @@
-# print("Namaste Bharat")
-# print("Hello Rohan")
+#Name = input("What is your name: ")
+#Course = input("What is your course: ")
+#Fees = int(input("What is your fees: "))
 
-# print("Hetvi")
-# print("Ahmedabad")
-# print("Welcome to data analytics")
+#print("My name is" ,(Name) , "my course is" ,(Course), "and my fees is" ,(Fees))
 
-# Name = input("What is your name: ")
-# Age = int(input("What is your age: "))
+#Name = input("My name is: ")
+#Marks = int(input("My marks are: "))
+#Result = input("Passed/Failed: ")
 
-# print(Name)
-# print(Age)
+#print("My name is" ,Name, "my marks are" ,Marks, "and my result is" ,Result )
 
-# print("My name is", Name,"and i am" ,Age," years old")
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-Name = input("What is your name: ")
-Course = input("What is your course: ")
-Fees = int(input("What is your fees: "))
+a, b = b, a
 
+print("a=", a)
+print("b=", b)

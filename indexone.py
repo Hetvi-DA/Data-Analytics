@@ -1,4 +1,4 @@
-# import numpy as np
+# LECTURE 1
 
 # arr = np.array([10,20,30])
 
@@ -69,3 +69,63 @@
 
 # Random Decimal Values
 # print(np.random.random(5))
+
+# 6. Array Properties
+# 6.1 ndim
+
+# arr = np.array([[1,2],[3,4]])
+
+# print(arr.ndim)
+
+# 6.2 shape
+
+# 6.2 shape
+
+# print(arr.shape)
+
+# 6.3 size
+
+# print(arr.size)
+
+# 6.4 dtype
+
+# print(arr.dtype)
+
+# 7. Indexing in NumPy
+
+# 7.1 Indexing in 1D Array
+
+# sales = np.array([10000,15000,20000,25000])
+
+# print(sales[0])
+# print(sales[2])
+
+# print(sales[-1])
+
+# 8. Slicing in NumPy
+
+# arr = np.array([10,20,30,40,50])
+
+# print(arr[1:4])
+
+# Step Slicing
+# print(arr[0:5:2])
+
+# 9. 2D Array Indexing & Slicing
+
+# employee = np.array([
+#     [101,25000],
+#     [102,30000],
+#     [103,35000]
+# ])
+
+# Access Row
+# print(employee[1])
+
+# Access Specific Value
+# print(employee[1,1])
+
+# Access Full Column
+
+# print(employee[:,1])
+

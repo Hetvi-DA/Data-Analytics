@@ -177,3 +177,91 @@
 # print(np.nanmax(salary))
 # print(salary[salary > 40000])
 # print(np.sort(salary))
+
+                        # Practice Questions
+# Basic
+
+# 1. Create array from 1–20 and reshape into 4×5.
+# arr = np.arange(1, 21).reshape(4, 5)
+# print(arr)
+
+# 2. Find sum, mean, min, max.
+# print("Sum:", np.sum(arr))
+# print("Mean:", np.mean(arr))
+# print("Minimum:", np.min(arr))
+# print("Maximum:", np.max(arr))
+
+# 3. Find standard deviation
+# print("Standard Deviation:", np.std(arr))
+
+# 4. Filter values greater than 50.
+# print(arr[arr > 50])
+
+# 5. Sort array.
+# sorted_arr = np.sort(arr)
+# print(sorted_arr)
+
+# Intermediate
+
+# 1. Create salary dataset with missing values.
+# salary = np.array([25000, 40000, np.nan, 55000, 70000, np.nan, 45000])
+
+# print(salary)
+
+# 2. Find average salary ignoring null values.
+# average_salary = np.nanmean(salary)
+# print("Average Salary:", average_salary)
+
+
+# 3. Extract salaries between 30K–60K.
+# filtered_salary = salary[(salary >= 30000) & (salary <= 60000)]
+
+# print(filtered_salary)
+
+# 4. Find unique departments.
+# departments = np.array([
+#     "HR",
+#     "IT",
+#     "Finance",
+#     "HR",
+#     "Sales",
+#     "IT",
+#     "Finance"
+# ])
+
+# print(np.unique(departments))
+
+# 5. Calculate percentile.
+# print("75th Percentile:", np.nanpercentile(salary, 75))
+
+
+# Homework Assignment
+
+
+# print("Salary Dataset:")
+# print(salary)
+
+# print("\nDepartments:")
+# print(departments)
+
+# 1. Mean Salary
+# print("Mean Salary:", np.nanmean(salary))
+
+# 2. Maximum Salary
+# print("Maximum Salary:", np.nanmax(salary))
+
+# 3. Salary > 40K
+# print("Salary Greater than 40K:")
+# print(salary[salary > 40000])
+
+# 4. Sorting
+# print("Sorted Salary:")
+# print(np.sort(salary))
+
+# # 5. Missing Value Handling
+# print("Average Salary (Ignoring Missing Values):")
+# print(np.nanmean(salary))
+
+# # 6. Unique Department Count
+# print("Unique Departments:", np.unique(departments))
+# print("Total Unique Departments:", len(np.unique(departments)))

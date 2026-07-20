@@ -129,3 +129,83 @@
 
 # print(employee[:,1])
 
+
+                        #  PRACTICE QUESTIONS
+# BASIC 
+
+# 1. Create an array of numbers from 1 to 20
+# arr= np.arange(1,21)
+# print(arr)
+
+# 2. Create a 2D employee salary dataset.
+# employees = np.array([
+#     [101,50000],
+#     [102,70000],
+#     [103,40000],
+#     [104,60000]
+# ])  
+# print(employees) 
+
+# 3. Print datatype of array.
+# print(arr.dtype)
+
+# 4. Extract last element.
+# print(arr[-1])
+
+# 5. Slice first 5 values.
+# print(arr[:5])
+
+
+# INTERMEDIATE
+
+# 6. Create random salary data.
+# salary = np.random.randint(30000, 100000, size=10)
+# print(salary)
+
+# 7. Extract complete salary column.
+# salary_column = employees[:,1]
+# print(salary_column)
+
+# 8. Create matrix using zeros.
+# zero_matrix = np.zeros((3, 3))
+# print(zero_matrix)
+
+# 9. Create matrix using ones.
+# one_matrix = np.ones((3, 3))
+# print(one_matrix)
+
+# 10. Generate even numbers till 100
+# even = np.arange(2, 101, 2)
+# print(even)
+
+                         # Homework Assignment
+# students = np.array([
+#     [101, 85],
+#     [102, 90],
+#     [103, 78],
+#     [104, 88],
+#     [105, 95]
+# ])
+# print("Student Dataset:")
+# print(students)
+
+# 1. Find total students
+# print("Total Students:", students.shape[0])
+
+# 2. Check datatype
+# print("Datatype:", students.dtype)
+
+# 3. Print dimensions
+# print("Dimensions:", students.ndim)
+
+# 4. Extract marks of second student
+# print("Marks of Second Student:", students[1, 1])
+
+# 5. Print only marks column
+# print("Marks Column:")
+# print(students[:, 1])
+
+# 6. Slice first three records
+# print("First Three Records:")
+# print(students[:3])
+
